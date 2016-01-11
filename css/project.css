@@ -1,0 +1,1059 @@
+/*******************************************
+************* Personal Project *************
+/******************************************/
+
+body{
+    margin: 0; /* No margin */
+}
+
+/*******************************************
+************* Header and Menu **************
+/******************************************/
+
+
+/* Size and background for the header */
+header{
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 60px;
+  float: left;
+}
+
+/* Define size and position for the logo */
+#logo{
+  width: 110px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+/* Define the size of the menu, alignement for menu and the font family */
+#menu{
+  width: 100vw;
+  height: 90px;
+  text-align: center;
+  font-family:  helvetica, sans-serif, arial;
+}
+
+/* Put the menu inline and remove bullets */
+#menu ul li{
+  display: inline;
+  padding: 0.8em;
+  list-style-type: none;
+}
+
+/* Define the color of font and remove the underscore for link */
+#menu ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Links become grey on mouse over */
+#menu ul li a:hover{
+  color: #cfcfcf;
+}
+
+
+/*******************************************
+******** Home Page (index.html) ************
+/******************************************/
+
+
+/* Put all pictures of the home page to 100% */
+.full_width_pic{
+  width: 100vw;
+  height: auto;
+}
+
+/* Put all pictures of the home page in float left */
+#home_premium_first_pic,#home_premium_second_pic,#home_premium_third_pic,#home_premium_fourth_pic,#home_premium_sixth_pic{
+  float: left;
+}
+
+/* Section which contain the quick description of the Xperia z5 premium (home page) */
+#para_xperia_z5_home{
+  width: 100vw;
+  height: auto;
+  float: left;
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(228, 228, 228),rgb(229, 229, 229),rgb(230, 230, 230),rgb(231, 231, 231),rgb(232, 232, 232),rgb(233, 233, 233),rgb(234, 234, 234),rgb(235, 235, 235),rgb(236, 236, 236),rgb(237, 237, 237),rgb(238, 238, 238),rgb(239, 239, 239),rgb(240, 240, 240),rgb(241, 241, 241),rgb(242, 242, 242),rgb(243, 243, 243),rgb(244, 244, 244),rgb(245, 245, 245),rgb(246, 246, 246),rgb(247, 247, 247),rgb(248, 248, 248),rgb(249, 249, 249),rgb(250, 250, 250),rgb(251, 251, 251),rgb(252, 252, 252),rgb(253, 253, 253),rgb(254, 254, 254), rgb(255, 255, 255));
+}
+
+/* H2 title "XPERIA Z5" under the picture with the mobile and earphone (home page) */
+#para_xperia_z5_home h2{
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  font-size: 2.2em;
+}
+
+/* Paragraph under the H2 title of the home page */
+#para_xperia_z5_home p{
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-size: 1.4vw;
+  font-family: Verdana, "DejaVu Sans", "Bitstream Vera Sans", Geneva, sans-serif;
+  color: #787878;
+}
+
+/* The only link of the Home page "Discover complete specifications" */
+#para_xperia_z5_home a{
+  text-decoration: none;
+  color: #3b89ff;
+  font-family: sans-serif, verdana;
+  font-size: 1vw;
+  font-weight: lighter;
+}
+
+/* All icons of the Home page */
+.icons_home_page{
+  width: 4vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* All paragraph under Home page icons */
+.para_icons_home_page{
+  color: #3b89ff;
+  font-family: sans-serif, verdana;
+  font-size: 1.6vw;
+  text-align: center;
+  margin-left: 1.4vw;
+  margin-right: 1.4vw;
+  margin-bottom: 4vw;
+}
+
+/* Define position and width for all home page icons */
+.position_icons_spec_home{
+  width: 33.333333333%;
+  float: left;
+}
+
+/* The last Home page paragraph */
+#para_end_home{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  float: left;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+/* Link "Discover complete specifications" of the Home page */
+#para_end_home a{
+  text-decoration: none;
+  color: #3b89ff;
+  font-family: sans-serif, verdana;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  padding: 2.5vw;
+  background-color: #d5d5d5;
+}
+
+/* Icons of Xperia z5 specifications take 50% of the page when the screen is inferior to 640px */
+@media screen and (max-width: 640px) {
+  .position_icons_spec_home{
+    width: 50%;
+    float: left;
+  }
+}
+
+/* When the screen is inferior to 640px, the third and fifth icons go to the next line (clear both) */
+@media screen and (max-width: 640px) {
+  #third_spec_media, #fifth_spec_media{
+    display:block;
+    clear:both;
+  }
+}
+
+
+/*******************************************
+************** Smart Devices ***************
+/******************************************/
+
+/*************** Xperia Z *****************/
+/*************** Xperia Z *****************/
+
+/* Submenu's section under the header. 3 mobiles, 1 tablet and 1 watch */
+#section_submenu{
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(38, 38, 38);
+  float: left;
+}
+
+/* Unordered list which contains the links of the Smart Devices page */
+#section_submenu ul{
+  text-align: center;
+}
+
+/* List which contains the links of the Smart Devices page */
+#section_submenu ul li{
+  display: inline;
+  line-height: 25px;
+  padding: 3vw;
+}
+
+/* Submenu link's customization */
+#section_submenu ul li a{
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  font-family: sans-serif, verdana;
+  font-size: 0.9em;
+}
+
+/* Submenu link's customization thanks to a hover */
+#section_submenu ul li a:hover{
+  color: #ffffff;
+}
+
+/* Section which contain the first paragraph and the first picture of the Xperia Z page (first_div_first_section and second_div_first_section) */
+#first_section_xperia_z_page, #third_section_xperia_z_page{
+  width: 100vw;
+  height: auto;
+  float: left;
+}
+
+/* First div of the Xperia z Page. Contain h1, h3 and first paragraph of the Xperia z page */
+#first_div_first_section, #first_div_third_section{
+  width: 20vw;
+  height: auto;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 2vh;
+  margin-top: 8%;
+}
+
+/* Second div in the first the section and Second div in thr third section of Xperia Z page. Contain the first pic of the Xperia z page (#smart_devices_xperiaz_first_pic => 4k screen and #smart_devices_xperiaz_third_pic => Video and capture) */
+#second_div_first_section, #second_div_third_section{
+  width: 75vw;
+  float: right;
+  margin-top: 6%;
+}
+
+/* Xperia z page's first pic and third pic. The world's first 4K smartphone (picture wicth fruits) */
+#smart_devices_xperiaz_first_pic, #smart_devices_xperiaz_third_pic{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Define all parameters for all h1 titles of the Xperia z page */
+.h1_title_xperiaz_page{
+  font-family: helvetica, sans-serif;
+  color: #525efa;
+  font-weight: lighter;
+  font-size: 2.7vw;
+}
+
+/* Define all parameters for all h2 titles of the Xperia z page */
+.h2_title_xperiaz_page{
+  font-family: helvetica, sans-serif;
+  color: #787878;
+  font-weight: lighter;
+  font-size: 2vw;
+}
+
+/* Define all parameters for all h3 titles of the Xperia z page */
+.h3_title_xperiaz_page{
+  font-family: helvetica, sans-serif;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 1.8vw;
+}
+
+/* Define all parameters for all paragraphs of the Xperia z page */
+.para_xperiaz_page{
+  font-family: arial, sans-serif;
+  color: #909090;
+  font-weight: lighter;
+  font-size: 1.4vw;
+}
+
+/* Section which contain the second paragraph and the second picture of the Xperia Z page (first_div_second_section and second_div_second_section) */
+#second_section_xperia_z_page{
+  width: 100vw;
+  height: auto;
+  float: left;
+  margin-top: 8%;
+}
+
+/* First div of the second section of the Xperia z Page. Contain the second picture */
+#first_div_second_section{
+  width: 75vw;
+  float: left;
+}
+
+/* Second div of the second section of the Xperia Z page. Contain h1, h3 and paragraph (Big content. Big quality) */
+#second_div_second_section{
+  width: 20vw;
+  height: auto;
+  float: right;
+  margin-top: 10%;
+  padding-right: 5%;
+}
+
+/* Define the size of the second picture */
+#smart_devices_xperiaz_second_pic{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Define ta margin-top for the third pic of the Xperia z page */
+#third_section_xperia_z_page{
+  margin-top: 10%;
+}
+
+/* Paragraphs above the pictures which are center (Battery,fingerprint sensor, size and colors) of the Xperia Z page  */
+#first_div_fourth_section,#first_div_fifth_section,#first_div_sixth_section,#first_div_seventh_section, #first_div_eighth_section{
+  float: left;
+  width: 90vw;
+  height: auto;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* Div which contain pictures (Battery, fingerprint sensor) of the Xperia Z page  */
+#second_div_fourth_section,#second_div_fifth_section, #smart_devices_xperiaz_fourth_pic,#smart_devices_xperiaz_fifth_pic{
+  width: 90%;
+  float: left;
+  margin-top: 1.5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Div which contain one picture (Three sizes) of the Xperia Z page */
+#second_div_sixth_section,#smart_devices_xperiaz_sixth_pic{
+  width: 100vw;
+  height: auto;
+  float: left;
+  margin-top: 1.5%;
+}
+
+/* colors and gold pictures size of the Xperia Z page */
+#smart_devices_xperiaz_seventh_pic, #smart_devices_xperiaz_eighth_pic, #smart_devices_xperiaz_nineth_pic, #smart_devices_xperiaz_tenth_pic{
+  width: 100vw;
+  float: left;
+  height: auto;
+}
+
+/* Define the color of the h2 title that talk about de the limited glod edition of the Xperia Z5 Premium  */
+#first_div_seventh_section h1{
+  color: rgb(218, 240, 133);
+}
+
+/* Last title of the Xperia Z page (Full specifications.) */
+#last_title_xperia_z_page{
+    float: left;
+    text-align: center;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    width: 100vw;
+}
+
+/* Last title of the Xperia Z page (Full specifications.) */
+#last_title_xperia_z_page h1{
+  text-align: center;
+  float: left;
+}
+
+/* Define parameters for full specifications of the Xperia z5 compact, z5 and Z5 premium */
+.full_specifications_end_xperia_z{
+  width: 80vw;
+  float: left;
+  background-color: #f5f5f5;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 2vh;
+  font-family: sans-serif, arial;
+}
+
+/* h2 title for the full specifications of z5, z5 compact and z5 premium */
+.h2_xperia_z_page_spec{
+  text-align: center;
+  font-family: sans-serif, arial;
+  font-size: 1.5vw;
+}
+
+/* Remove the bullets of the lists and define the font family (full specifications z5, z5 compact and z5 premium) */
+.specifications_class_xperia_z{
+  list-style-type: none;
+  color: #464646;
+  font-size: 1.3vw;
+}
+
+/* Final DIV which contain the button => back to top */
+#end_xperia_z_page{
+  width: 100vw;
+  float: left;
+}
+
+/* Button that permiss to go to the top of the page */
+#back_to_top_button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Put the first paragraph (first_div_first_section, second_div_second_section, first_div_third_section) of the Xperia z page to the top and text is center */
+@media screen and (max-width: 640px) {
+  #first_div_first_section,#second_div_second_section, #first_div_third_section {
+    width: 100vw;
+    float: left;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/* Define a left and right margin for the paragraph when the screen is inferior to 640px */
+@media screen and (max-width: 640px) {
+  .para_xperiaz_page{
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+/* Put the second_div_first_section, first_div_second_section, second_div_third_section (first; second pic of the Xperia z page) under the paragraph (first_div_first_section) */
+@media screen and (max-width: 640px) {
+  #second_div_first_section, #first_div_second_section, #second_div_third_section{
+    width: 100vw;
+    display:block;
+    clear: both;
+    float: left;
+  }
+}
+
+/* The title of the seventh section becomes bold when the resolution is inferior to 1000px  */
+@media screen and (max-width: 1000px) {
+  #first_div_seventh_section h1{
+    font-weight: bolder;
+  }
+}
+
+
+/************ Xperia C and M **************/
+/************ Xperia C and M **************/
+
+/* The Xperia C and M page have some same ID and class. This allows Xperia C and M page to be the same (just the paragraph and pictures change) */
+
+/* Define parameters for the two first section of the Xperia C5 page */
+#first_section_c5_page, #second_section_c5_page{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  float: left;
+  margin-top: 20px;
+}
+
+#second_section_c5_page{
+  margin-top: 90px;
+}
+
+/* Define parameters for the third section of the Xperia C5 page (Camera and selfie) */
+#third_section_c5_page{
+  width: 100vw;
+  height: auto;
+  float: left;
+  margin-top: 120px;
+}
+
+/* Define parameters for the paragraph in the third section (Camera and selfie paragraph) */
+#third_section_c5_page p{
+  font-family: arial, sans-serif;
+  color: #909090;
+  font-weight: lighter;
+  font-size: 1.5vw;
+}
+
+/* Div which contains the paragraph Camera */
+#first_div_third_section_c5_page{
+  width: 20vw;
+  height: auto;
+  float: left;
+  margin-left: 5vw;
+}
+
+/* Div which contains the camera picture */
+#second_div_third_section_c5_page, #xperia_c_camera{
+  width: 50vw;
+  height: auto;
+  float: left;
+}
+
+/* Div which contains the paragraph Selfie camera apps */
+#third_div_third_section_c5_page{
+  width: 20vw;
+  height: auto;
+  float: left;
+  margin-right: 5vw;
+}
+
+/* Define parameters for the fourth section of the Xperia C page (Selfie picture and the three paragraph under the picture)*/
+#fourth_section_c5_page{
+  max-width: 100vw;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+/* Define parameters for selfie picture (3 portraits pictures under camera and selfie section) */
+#xperia_c_selfie{
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: auto;
+}
+
+/* Put margins for first paragraph under selfie picture (style portrait) */
+#second_div_fourth_section_c5_page{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* Put margins for third paragraph under selfie picture (Face in) */
+#fourth_div_fourth_section_c5_page{
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+/* Fifth section of the Xperia c5 page (display part) */
+#fifth_section_c5_page, #sixth_section_c5_page, #seventh_section_c5_page, #eighth_section_c5_page{
+  width: 100vw;
+  height: auto;
+  float: left;
+}
+
+/* First div of the fifth section of the xperia c5 page (display) */
+#first_div_fifth_section_c5_page, #first_div_seventh_section_c5_page{
+  display: inline-block;
+  margin-left: 5vw;
+  width: 25vw;
+  height: auto;
+  float: left;
+}
+
+/* First and second paragraph of display part (Xperia c5 page) */
+#first_para_fifth_div, #second_para_fifth_div, #first_para_seventh_div, #second_para_seventh_div{
+  margin-left: 0;
+  text-align: left;
+}
+
+/* Second div of the display part. Contain the picture of the Xperia c5 display */
+#second_div_fifth_section_c5_page, #second_div_seventh_section_c5_page{
+  width: 65vw;
+  height: auto;
+  margin-right: 5vw;
+  float: left;
+}
+
+/* Display picture of the display part */
+#xperia_c_display, #xperia_c_sound, #xperia_c_battery{
+  width: 65vw;
+  height: auto;
+}
+
+/* Put a margin top for the display picture */
+#xperia_c_display{
+  margin-top: 20px;
+}
+
+/* Put a margin top for the sound picture */
+#xperia_c_sound{
+  margin-top: 60px;
+  float: left;
+}
+
+/* Define parameters for the processor picture */
+#first_div_sixth_section_c5_page, #first_div_eighth_section_c5_page{
+  width: 65vw;
+  height: auto;
+  margin-left: 5vw;
+  float: left;
+}
+
+/* Display picture of the display part */
+#xperia_c_proc{
+  width: 65vw;
+  height: auto;
+}
+
+/* Paragraph of the processor part (Xperia c5 page) */
+#second_div_sixth_section_c5_page, #second_div_eighth_section_c5_page{
+  display: inline-block;
+  margin-right: 5vw;
+  width: 25vw;
+  height: auto;
+  float: left;
+}
+
+/* Remove the margin of the processor paragraph (xperia c5 page) */
+#first_para_sixth_div, #first_para_eighth_div{
+  margin: 0;
+}
+
+/* Put a padding top for the paragraph "Battery" */
+#second_div_eighth_section_c5_page{
+  padding-top: 20px;
+}
+
+/* Put a padding top for the eighth section (battery) */
+#eighth_section_c5_page, #nineth_section_c5_page{
+  margin-top: 60px;
+  float: left;
+  text-align: center;
+}
+
+/* Define parameters for the last section of the Xperia C5 page (full spec) */
+#nineth_section_c5_page{
+  width: 100vw;
+  height: auto;
+}
+
+/* Define parameters for the last title of the Xperia C5 page (Full specification) */
+#nineth_section_c5_page h1{
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Define parameters for the unordered list of the last section (full spec) */
+#nineth_section_c5_page ul{
+  list-style-type: none;
+  margin-top: 40px;
+  padding-left: 0;
+}
+
+/* Define parameters for the unordered list of the last section (full spec) */
+#nineth_section_c5_page ul li{
+  margin-top: 5px;
+}
+
+/* Define a class for all h1 title of Xperia C5 and M5 page */
+.h1_c5_m5_page{
+  font-family: helvetica, sans-serif;
+  color: #525efa;
+  font-weight: lighter;
+  font-size: 2.7vw;
+}
+
+/* Define a class for all h3 title of Xperia C5 and M5 page */
+.h3_c5_m5_page{
+  font-family: helvetica, sans-serif;
+  color: #000000;
+  font-weight: lighter;
+  font-size: 1.8vw;
+}
+
+/* Define a class for all paragraph title of Xperia C5 page */
+.para_c5_m5_page{
+  font-family: arial, sans-serif;
+  color: #909090;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 2vh;
+}
+
+/* Define parameters for the two first pictures of the Xperia C5 page */
+.pic_design_color_page{
+  max-width: 90vw;
+  height: auto;
+  margin-top: 2vh;
+}
+
+/* Define a class for the position of the third paragraphs under selfie picture */
+.div_selfie{
+  width: 26.666666667vw;
+  height: auto;
+  float: left;
+  text-align: center;
+}
+
+/* Define parameters (font family etc...) for the third paragraphs under the selfie picture */
+.para_selfie{
+  font-family: arial, sans-serif;
+  color: #909090;
+  font-weight: lighter;
+  font-size: 1.5vw;
+}
+
+/* Define parameters for the icons of the last section (full spec) */
+.logo_full_spec_c5_m5{
+  width: 3em;
+  height: auto;
+  padding: 0.5vw;
+}
+
+/* Under 800px, div under the selfie picture (style portrait, ar mask and Face in) are one above the other */
+@media screen and (max-width: 800px) {
+  .div_selfie{
+    width: 100vw;
+    text-align: center;
+  }
+}
+
+/* Under 800px, paragraphs under the selfie picture (style portrait, ar mask and Face in) are one above the other */
+@media screen and (max-width: 800px) {
+  .para_selfie{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #525efa;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 30px;
+    font-size: 1.7vw;
+  }
+}
+
+/* Under 800px, remove the margin for two div (style portrait and face in) */
+@media screen and (max-width: 800px) {
+  #second_div_fourth_section_c5_page,#fourth_div_fourth_section_c5_page{
+    margin: 0;
+  }
+}
+
+/* Under 800px, define parameters for the first div of the display part (xperia c5 page) */
+@media screen and (max-width: 800px) {
+  #first_div_fifth_section_c5_page{
+    width: 25vw;
+    height: auto;
+    margin-top: 30px;
+    float: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+  }
+}
+
+/* Under 1000px, define parameters for the picture of the C5 display (xperia c5 page) */
+@media screen and (max-width: 1000px) {
+  #second_div_fifth_section_c5_page{
+    width: 60vw;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    margin-right: 5vw;
+  }
+}
+
+/* Under 1000px, define parameters for the picture of the C5 processor (xperia c5 page) */
+@media screen and (max-width: 1000px) {
+  #xperia_c_proc, #first_div_sixth_section_c5_page{
+    display: block;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 60vw;
+    height: auto;
+    float: left;
+  }
+}
+
+/* Put a margin top for the sound and display picture of the xperia c5 page */
+@media screen and (max-width: 1000px) {
+  #sixth_section_c5_page, #seventh_section_c5_page{
+    margin-top: 20px;
+  }
+}
+
+/* Put a margin top for the sound picture of the xperia c5 page */
+@media screen and (max-width: 1000px) {
+  #second_div_seventh_section_c5_page_section, #xperia_c_sound{
+    margin-top: 30px;
+  }
+}
+
+
+/***************** Tablet *****************/
+/***************** Tablet *****************/
+
+/* Define position of the second section (Tablet page). This allow to put a second div inside the first div */
+#second_section_tablet_page{
+  position: relative;
+}
+
+/* Define the position of the second div (Entertainment everywhere) inside the second section */
+#second_div_second_section_tablet_page{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  padding: 1vw;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+
+/* Define parameters for the title (Entertainment everywhere) inside the second div of the second section (tablet page) */
+#second_div_second_section_tablet_page h1{
+  font-size: 2.8vw;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+/* Define parameters for the Waterproof and dust tight section */
+#second_section_tablet_page_part2{
+  float: left;
+  width: 100vw;
+  height: auto;
+  margin-top: -1vh;
+  text-align: center;
+}
+
+/* Put a padding for the title Waterproof and dust tight */
+#second_section_tablet_page_part2 h2{
+  padding : 1.5vw;
+}
+
+/* Define parameters for the paragraph of the Waterproof and dust tight part */
+#first_div_second_section_tablet_page_part2{
+  padding: 0.5vw;
+  margin: 2vw;
+}
+
+/* Design section of the xperia z4 tablet page */
+#third_section_tablet_page{
+  margin-top: 50px;
+  width: 100vw;
+  height: auto;
+  background-color: #f2f2f2;
+  float: left;
+}
+
+/* Define parameters for the title of Design section of the xperia z4 tablet page */
+#third_section_tablet_page h2, p{
+  text-align: center;
+}
+
+/* Define a margin for the first picture of Design section */
+#z4_tablet_design_4{
+  margin-right: 0.5vw;
+  margin-left: 9.5vw;
+}
+
+/* Define a margin for the second picture of Design section */
+#z4_tablet_design_5{
+  margin-right: 9vw;
+}
+
+/* Define general parameters for the pictures of the Design section */
+#z4_tablet_design_4, #z4_tablet_design_5{
+  width: 40vw;
+  height: auto;
+  float: left;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+/* Define parameters for the fourth_section_tablet_page */
+#fourth_section_tablet_page{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  float: left;
+  background-color: #f7f7f7;
+}
+
+/* Define a padding for the Display title */
+#fourth_section_tablet_page h2{
+  padding-top: 40px;
+}
+
+/* Put a margin for the #first_div_fourth_section_section_tablet_page and #third_div_fourth_section_tablet_page */
+#first_div_fourth_section_tablet_page, #third_div_fourth_section_tablet_page{
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+/* Define parameters for the z4_tablet_display picture */
+#z4_tablet_display{
+  width: 94vw;
+  height: auto;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 4vh;
+}
+
+/* Define parameters for the fifth section of the xperia Z4 (tablet page) => One touch connectivity */
+#fifth_section_tablet_page{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  float: left;
+  margin-top:
+}
+
+/* First paragraph inside the fifth_section_tablet_page (One touch connectivity)*/
+#first_div_fifth_section_tablet_page{
+  width: 30vw;
+  height: auto;
+  float: left;
+  margin-left: 20vw;
+}
+
+/* Second paragraph inside the fifth_section_tablet_page (One touch connectivity)*/
+#second_div_fifth_section_tablet_page{
+  width: 30vw;
+  height: auto;
+  float: left;
+  margin-right: 20vw;
+}
+
+/* Define parameters for the third div of the One touch connectivity section.  It contains the two pictures .*/
+#third_div_fifth_section_tablet_page{
+  width: 100vw;
+  height: auto;
+  float: left;
+  padding-top: 2vh;
+}
+
+/* Second pictures (right) of One touch connectivity section */
+#z4_tablet_connectivity_1{
+  width: 40vw;
+  height: auto;
+  float: left;
+  margin-right: 9.9vw;
+}
+
+/* First picture (left) of One touch connectivity section */
+#z4_tablet_connectivity_2{
+  width: 40vw;
+  height: auto;
+  float: left;
+  margin-left: 9.9vw;
+  margin-right: 0.1vw;
+}
+
+/* Define a class that put the pictures at 100% (100vw) */
+.full_size_tablet_page{
+  width: 100vw;
+  height: auto;
+}
+
+/* Define a class for all titles of the Tablet page */
+.titles_tablet_page{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8em;
+  color: #525efa;
+}
+
+/* Define a class for all paragraphs of the Tablet page */
+.paragraphs_tablet_page{
+  font-family: sans-serif, arial;
+  font-weight: lighter;
+  font-size: 1em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: #464646;
+}
+
+/* Define parameters for the three div of the display part */
+.display_three_div{
+  width: 26.666666667vw;
+  height: auto;
+  font-family: sans-serif, arial;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #464646;
+  float: left;
+}
+
+/* Under 1000px, the two pictures Design xperia z4 tablet become larger. The second picture (z4_tablet_design_5) go under the first picture (z4_tablet_design_4) */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_design_4, #z4_tablet_design_5{
+    float: left;
+    width: 90vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+/* Remove the margin between the two pictures : z4_tablet_design_4, z4_tablet_design_5 */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_design_4{
+    margin-bottom: 0;
+  }
+}
+
+/* Define a very thin margin between the first and the second picture inside the Design part of the Xperia Z4 tablet */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_design_5{
+    margin-top: 0.3vh;
+  }
+}
+
+/* Define parameters for the three div of the Display part when the screen is under 1000px */
+@media screen and (max-width: 1000px) {
+  .display_three_div{
+    float: left;
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+
+/* Define parameters for the z4_tablet_display when the screen is under 1000px */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_display{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+  }
+}
+
+/* Define parameters for the z4_tablet_connectivity_1 and z4_tablet_connectivity_2 when the screen is under 1000px */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_connectivity_2,#z4_tablet_connectivity_1{
+    width: 70vw;
+    height: auto;
+    margin-left: 15vw;
+    margin-right: 15vw
+  }
+}
+
+/* Put a padding-top for z4_tablet_connectivity_1 when the screen is under 1000px */
+@media screen and (max-width: 1000px) {
+  #z4_tablet_connectivity_1{
+    padding-top: 0.7vw;
+  }
+}
+
+
+/*******************************************
+************* Footer ***********************
+/******************************************/
+
+
+/* Define size, background color, position and font family for the footer */
+footer{
+  width: 100vw;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  font-family: sans-serif, verdana;
+}
+
+/* Define position, color and font sizefor the paragraphs of the footer */
+footer p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+/* Define padding and color for the links inside the footer */
+footer p a{
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+/* Define padding and color for the links inside the footer */
+footer p a:hover{
+  color: #cfcfcf;
+}

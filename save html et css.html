@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/project.css"/>
+    <link rel="stylesheet" href="css/project.css" media="screen" type="text/css"/>
+  </head>
+
+  <body>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html"><img src="img/logo.jpg" alt="sony_logo" title="Home" id="logo"/></a></li>
+          <li><a href="smart_devices.html">Smart Devices</a></li>
+          <li><a href="#">Audio & Video</a></li>
+          <li><a href="#">Playstation</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <img src="img/home_premiumz5_7.jpg" alt="Z5_premium7" class="full_width_pic" id="home_z5_first_pic"/>
+    <img src="img/home_premiumz5.jpg" alt="Z5_premium" class="full_width_pic" id="home_z5_second_pic"/>
+    <img src="img/home_premiumz5_2.jpg" alt="Z5_premium2" class="full_width_pic" id="home_z5_third_pic"/>
+
+
+    <div id="home_z5_fourth_pic" class="four_pic_block_home">
+    </div>
+    <div id="home_z5_fifth_pic" class="four_pic_block_home">
+    </div>
+    <div id="home_z5_sixth_pic" class="four_pic_block_home">
+    </div>
+    <div id="home_z5_seventh_pic" class="four_pic_block_home">
+    </div>
+
+
+    <section id="para_xperia_z5_home">
+      <h2>XPERIA Z5</h2>
+      <p>Xperia Z5 delivers a design difference you can feel. A metal frame with precision engraving. A smooth, simplified form. And a frosted glass back that’s both gentle on the eye and cool to the touch.</p>
+      <p>The smartphone of tomorrow is here today. Get ready for a 4K** display that leaves the rest behind.Imagine the best of Sony TV technologies delivered in a smartphone. A super-vivid and sharp display, right in the palm of your hand. Meet Xperia Z5 Premium. With a 4K Ultra HD display, this 5.5” smartphone packs in four times the resolution of Full HD for an unrivalled viewing experience.</p>
+      <p><a href="smart_devices.html"><b>Discover complete specifications</b></a></p>
+    </section>
+
+
+    <section class="spec_left">
+      <img src="img/size_screen.png" alt="size_screen" class="icons_spec"/>
+      <p class="para_icons">5.5” 4K** Triluminos Display™ for mobile with auto upscaling.</p>
+    </section>
+
+    <section class="spec_right">
+      <img src="img/battery.png" alt="battery" class="icons_spec"/>
+      <p class="para_icons">Up to 2 days battery life.</p>
+    </section>
+
+    <section class="spec_left">
+      <img src="img/photography.png" alt="photo" class="icons_spec"/>
+      <p class="para_icons">23 MP camera with Hybrid Autofocus (0.03 sec).</p>
+    </section>
+
+    <section class="spec_right">
+      <img src="img/proc.png" alt="proc" class="icons_spec"/>
+      <p class="para_icons">Qualcomm® Snapdragon™ 810, 64-bit Octa-core.</p>
+    </section>
+
+    <section class="spec_left">
+      <img src="img/water.png" alt="water" class="icons_spec"/>
+      <p class="para_icons">Waterproof and dust tight IP 65/68.</p>
+    </section>
+
+    <section class="spec_right">
+      <img src="img/digital.png" alt="digital" class="icons_spec"/>
+      <p class="para_icons">Fingerprint sensor.</p>
+    </section>
+
+
+    <footer>
+        <p><a href="#">Cookies</a>
+        <a href="#">Legal</a>
+        <a href="#">About Sony</a>
+        <a href="#">Contact us</a>
+        <a href="#">Press & News</a>
+        <a href="#">Follow us</a></p>
+
+        <p>Copyright © 2011-2015 Sony Mobile Communications Inc. All rights reserved</p>
+      </footer>
+
+  </body>
+</html>
+
+
+
+
+/*******************************************
+************* Personal Project *************
+/******************************************/
+
+body{
+    margin: 0; /* No margin */
+}
+
+/*******************************************
+************* Header and Menu **************
+/******************************************/
+
+
+/* Size and background for the header */
+header{
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 60px;
+  float: left;
+}
+
+/* Define size and position for the logo */
+#logo{
+  width: 110px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+/* Define the size of the menu, alignement for menu and the font family */
+#menu{
+  width: 100vw;
+  height: 90px;
+  text-align: center;
+  font-family:  helvetica, sans-serif, arial;
+}
+
+/* Put the menu inline and remove bullets */
+#menu ul li{
+  display: inline;
+  padding: 0.8em;
+  list-style-type: none;
+}
+
+/* Define the color of font and remove the underscore for link */
+#menu ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Links become grey on mouse over */
+#menu ul li a:hover{
+  color: rgb(207, 207, 207);
+}
+
+/*******************************************
+******** Home Page (index.html) ************
+/******************************************/
+
+
+/* Define a very thin top margin for the second, third and fourth pictures of the home page */
+#home_z5_second_pic, #home_z5_third_pic, #home_z5_fourth_pic{
+  margin-top: -3px;
+}
+
+/* Put the image in the div and define the position of the fourth picture of the home page */
+#home_z5_fourth_pic{
+  background-image: url(../img/home_premiumz5_4.jpg);
+  float: left;
+}
+
+/* Put the image in the div, define a very thin margin and define the position of the fifth picture of the home page */
+#home_z5_fifth_pic{
+  background-image: url(../img/home_premiumZ5_3.png);
+  float: right;
+  margin-top: -3px;
+}
+
+/* Put the image in the div, define a very thin margin and define the position of the sixth picture of the home page */
+#home_z5_sixth_pic{
+  background-image: url(../img/home_premiumz5_5.jpg);
+  float: left;
+  margin-top: 1px;
+}
+
+/* Put the image in the div, define a very thin margin and define the position of the seventh picture of the home page */
+#home_z5_seventh_pic{
+  background-image: url(../img/home_premiumz5_6.jpg);
+  float: right;
+  margin-top: 1px;
+}
+
+/* Define size, position, margin and a linear gradient (grey => white) */
+#para_xperia_z5_home{
+  width: 100vw;
+  height: auto;
+  float: left;
+  margin-top: 1px;
+  font-family: sans-serif, verdana;
+  background: linear-gradient(to bottom, rgb(228, 228, 228),rgb(229, 229, 229),rgb(230, 230, 230),rgb(231, 231, 231),rgb(232, 232, 232),rgb(233, 233, 233),rgb(234, 234, 234),rgb(235, 235, 235),rgb(236, 236, 236),rgb(237, 237, 237),rgb(238, 238, 238),rgb(239, 239, 239),rgb(240, 240, 240),rgb(241, 241, 241),rgb(242, 242, 242),rgb(243, 243, 243),rgb(244, 244, 244),rgb(245, 245, 245),rgb(246, 246, 246),rgb(247, 247, 247),rgb(248, 248, 248),rgb(249, 249, 249),rgb(250, 250, 250),rgb(251, 251, 251),rgb(252, 252, 252),rgb(253, 253, 253),rgb(254, 254, 254), rgb(255, 255, 255));
+}
+
+/* Define position, color and font family for the title */
+#para_xperia_z5_home h2{
+  text-align: center;
+  color: rgb(187, 187, 187);
+}
+
+/* Define position, color, margin and font family for the paragraph under the title "XPERIA Z5"  */
+#para_xperia_z5_home p{
+  text-align: center;
+  color: rgb(105, 79, 88);
+  margin-left: 20vw;
+  margin-right: 20vw;
+  font-size: 0.9em;
+}
+
+/* Define color, font family and remove the underlining for the link "Diqcover complete specifications" */
+#para_xperia_z5_home a{
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+
+/* Class which define the size for the first, second and third pictures of the home page */
+.full_width_pic{
+  width: 100vw;
+  height: auto;
+}
+
+/* Define size and use cover property for the four pictures in div (home_z5_fourth_pic, home_z5_fifth_pic, home_z5_sixth_pic, home_z5_seventh_pic) */
+.four_pic_block_home{
+  width: 49.99%;
+  height: 450px;
+  background-size: cover;
+}
+
+/* Define size and position for the specifications which are under the icons (left icons) from the home page  */
+.spec_left{
+  width: 50%;
+  height: 450px;
+  float: left;
+}
+
+/* Define size and position for the specifications which are under the icons (right icons) from the home page  */
+.spec_right{
+  width: 50%;
+  height: 450px;
+  float: right;
+}
+
+/* Define size, position and margin for all icons from the home page */
+.icons_spec{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 5em;
+  height: 5em;
+}
+
+/* Define margin, position, color, font family and size for paragraph under all icons from the home page */
+.para_icons{
+  margin-top: 70px;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: rgb(187, 187, 187);
+  font-family: sans-serif, verdana;
+  font-size: 1.5em;
+}
+
+/*******************************************
+************* Smart Devices Page ***********
+/******************************************/
+
+/* Xperia Z */
+/* Xperia Z */
+
+
+/* Define size, background color and position for the text inside the array (submenu) of the smart devices page */
+#submenu_smart_devices{
+  width:100vw;
+  height: 100px;
+  background-color: rgb(38, 38, 38);
+  text-align: center;
+}
+
+/* Define the width for TD and collapse borders for the array (submenu) of the smart devices page */
+#submenu_smart_devices td{
+  width: 20vw;
+  border-collapse: collapse;
+}
+
+/* Define color, font family, font size and remove the underlining of links from the smart devices page */
+#submenu_smart_devices a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: sans-serif,verdana;
+  font-size: 1.1em;
+}
+
+/* Define the color when mouse overs for the link in the submenu from the smart devices page */
+#submenu_smart_devices a:hover{
+  color: rgb(207, 207, 207);
+}
+
+/* Second section of the page "xperia z". Elements are like an array thanks to the property dispay : table. It allows the vertical align for the h1 */
+#first_section_xperia_z_page{
+  width: 100vw;
+  height: 150px;
+  background-color:  rgb(246, 246, 246);
+  display: table;
+  text-align: center;
+}
+
+/* Define a h1 title and put it in the middle of the second section of the "xperia z" page. (vertical align) */
+#first_section_xperia_z_page h1{
+  text-align: center;
+  color: rgb(130, 130, 130);
+  font-family: sans-serif, verdana, arial;
+  font-size: 2em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Second section of the "xperia z" page (quick presentation of the 4k display) */
+#second_section_xperia_z_page{
+  width: 100vw;
+  background-color: rgb(246, 246, 246);
+  float: left;
+}
+
+/* Paragraph of the second section in the "xperia z" page */
+#second_section_xperia_z_page p{
+  margin-bottom: 60px;
+}
+
+/* Div under the second picture, float left (Freeze the action) */
+#first_div_third_section_xperia_z_page, #first_div_fourth_section_xperia_z_page, #first_div_fifth_section_xperia_z_page, #gold_edition_z5{
+  float: left;
+}
+
+/* Div under the second picture, float right (Show it off on the big screen) */
+#second_div_third_section_xperia_z_page, #second_div_fourth_section_xperia_z_page, #second_div_fifth_section_xperia_z_page{
+  float: right;
+}
+
+/* Second, third, fourth, fifth and sixth pictures of "the xperia z" page */
+#second_pic_xperia_z_page, #third_pic_xperia_z_page, #fourth_pic_xperia_z_page, #fifth_pic_xperia_z_page, #sixth_pic_xperia_z_page{
+  float:left;
+}
+
+/* Put a different background color for the full specifications of the xperia Z5 */
+#xperia_z5_specifications_full{
+  background-color: rgb(236, 236, 236);
+}
+
+/* Define the position for the button back_to_top. This button is at the bottom of the page */
+#back_to_top_button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* Define the position of the last section of the Xperia Z page. It contains de last title "24K Gold Limited Edition" */
+#end_xperia_z_gold{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  float: left;
+}
+
+/* Define parameters for the last title of the Xperia z5 page "24K Gold Limited Edition" */
+#end_xperia_z_gold h2{
+  color: rgb(255, 255, 255);
+  font-family: sans-serif, arial, verdana;
+  font-weight: lighter;
+}
+
+/* Define style for all paragraph of the "xperia z" page */
+.para_xperia_z_page{
+  text-align: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-family: sans-serif, arial, verdana;
+}
+
+/* Define style for all h2 and h3 title of the "xperia z" page */
+.h2_xperia_z_page, .h3_xperia_z_page{
+  text-align: center;
+  font-family: sans-serif, arial, verdana;
+}
+
+/* Define size for all 49.95% div of the "xperia z" page */
+.half_width_div{
+  width: 49.95vw;
+  height: 250px;
+  background-color: rgb(246, 246, 246);
+}
+
+/* Define a class to organize all the full specifications for xperia z5 Compact, Xperia z5 and Xperia z5 Premium */
+.specifications_class_xperia_z{
+  text-align: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-family: sans-serif, arial, verdana;
+  list-style-type: none;
+}
+
+/* Define the size background, margin and position for the three full specifications div (xperia z5 compact, xperia z5, xperia z5 premium)  */
+.div_specifications_xperia_z{
+  width: 100vw;
+  height: auto;
+  background-color: rgb(246, 246, 246);
+  float: left;
+  margin-bottom: 1px;
+ }
+
+ /* Xperia C */
+ /* Xperia C */
+
+
+/*******************************************
+************* Footer ***********************
+/******************************************/
+
+
+/* Define size, background color, position and font family for the footer */
+footer{
+  width: 100vw;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  float: left;
+  font-family: sans-serif, verdana;
+}
+
+/* Define position, color and font sizefor the paragraphs of the footer */
+footer p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+}
+
+/* Define padding and color for the links inside the footer */
+footer p a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+}
+
+/* Define padding and color for the links inside the footer */
+footer p a:hover{
+  color: rgb(207, 207, 207);
+}
+
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+<!--MODIFS MENU HTML-->
+<!-- AJOUTER CE CODE AVANT CELUI DU MENU -->
+<input type="checkbox" name="slider" id="slider" />
+<label for="slider"><img src="../img/menu.png" alt="" /></label> <!-- POSIBILITE DE METTRE UNE IMGE DANS LE LABEL -->
+<!-- METTRE SON MENU EN MARGIN LEFT TOTALEMENT NEGATIF -->
+​
+<!-- METTRE UNE TRANSITION SUR SON MENU POUR LE SLIDE EFFECT -->
+​
+<!--CSS-->
+​
+#slider {
+  z-index: 999999999999999;
+  position: absolute;
+  cursor: pointer;
+  left: -100%;
+  top: -100%;
+}
+​
+#slider + label {
+  position: absolute;
+  cursor: pointer;
+  width: 3%;
+  border-radius: 3px;
+  color: #FFF;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+​
+#slider:checked ~ #nav {
+  left: 0;  <!-- REMISE DU MENU EN MARGIN LEFT 0 -->
+}
